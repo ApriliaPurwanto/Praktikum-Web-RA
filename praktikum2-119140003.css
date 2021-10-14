@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+header {
+    text-align: center;
+    background-color:white;
+}
+img {
+    vertical-align: middle;
+}
+nav {
+    text-align: center;
+    background-color: rgb(155,0,0);
+}
+.menunav {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+.menunav:hover {
+    background-color: white;
+    color:rgb(155,0,0);
+}
+.beritaterkait {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    text-indent: 8px;
+    padding: 5px;
+}
+h3 {
+    padding: 7px;
+}
+.aprilia {
+    background-color:rgb(155,0,0);
+    color: white;
+    text-indent: 8px;
+    padding: 5px;
+}
+body {
+    margin: 0%;
+}
+.column {
+    float: left;
+    padding: 0px 30px 0px 30px;
+} 
+.left {
+    width: 70%;
+}
+.right {
+    width: 30%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.mukaapril {
+    text-align: center;
+}
+.berita {
+    text-decoration: none;
+    color:black;
+}
+.berita:hover {
+    color:rgb(155,0,0);
+}
+p {
+    margin:8px;
+}
+table {
+    padding-left: 5px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+td,th{
+    padding: 10pt;
+    text-align: left;
+}
+footer {
+    clear: left;
+    text-align: center;
+    background-color: rgb(155,0,0);
+    color: white;
+    padding: 1pt;
+}
